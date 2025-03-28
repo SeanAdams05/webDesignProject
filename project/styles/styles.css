@@ -53,12 +53,38 @@ footer {
     font-style: italic;
     background-color:green; 
     color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .croaghPatrick {
+    background-color: rgb(80, 190, 80)  ;
+    border: 1px solid black;
     
-    background-color: rgb(10, 211, 20);
 }
 
+.caves {
+    border:1px solid black;
+}
 
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+.mapContent {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.culture {
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-width: 3px;
+    column-rule-color: orange;
+
+}
